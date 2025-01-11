@@ -1,16 +1,14 @@
 {
   "files": {
     "main.css": "/pr2-website/static/css/main.61591021.css",
-    "main.js": "/pr2-website/static/js/main.f4111827.js",
-    "static/js/453.e4e9c234.chunk.js": "/pr2-website/static/js/453.e4e9c234.chunk.js",
+    "main.js": "/pr2-website/static/js/main.a1c1b7fd.js",
     "static/media/logo.png": "/pr2-website/static/media/logo.465f430002d8118151ef.png",
     "index.html": "/pr2-website/index.html",
     "main.61591021.css.map": "/pr2-website/static/css/main.61591021.css.map",
-    "main.f4111827.js.map": "/pr2-website/static/js/main.f4111827.js.map",
-    "453.e4e9c234.chunk.js.map": "/pr2-website/static/js/453.e4e9c234.chunk.js.map"
+    "main.a1c1b7fd.js.map": "/pr2-website/static/js/main.a1c1b7fd.js.map"
   },
   "entrypoints": [
     "static/css/main.61591021.css",
-    "static/js/main.f4111827.js"
+    "static/js/main.a1c1b7fd.js"
   ]
 }
