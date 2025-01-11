@@ -1,0 +1,329 @@
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 0%; 
+    }
+    50% {
+      background-position: 100% 100%; 
+    }
+    100% {
+      background-position: 0% 0%; 
+    }
+  }
+  
+  .results-page {
+    background: linear-gradient(to bottom, #ffa07a, #f893b4);
+    background-size: 200% 200%;
+    animation: moveGradient 6s ease-in-out infinite;
+    min-height: 100vh;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 20px;
+    overflow: hidden; 
+  }
+  
+  @media (max-width: 768px) {
+    .results-page {
+      background-size: 150% 150%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .results-page {
+      background-size: 100% 100%;
+    }
+  }
+  
+
+html {
+  font-size: 16px; 
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px; 
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 12px; 
+  }
+}
+
+
+  .outside-info {
+    text-align: center;
+    margin-top: 30px; 
+  }
+  
+
+  .outside-info h2 {
+    font-size: 1em;
+    color: #050505;
+    margin: 0;
+    padding-top: 0; 
+    font-family: Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+  
+  
+  .outside-info h2 {
+    margin-top: -20px; 
+  }
+  
+
+  @media (max-width: 768px) {
+    .outside-info h2 {
+      font-size: 0.9em;
+      margin-top: -15px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .outside-info h2 {
+      font-size: 0.8em;
+      margin-top: -10px; 
+    }
+  }
+  
+  
+
+  
+  .outside-info h3 {
+    font-size: 2.5em; 
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 30px; 
+  }
+  
+  .frustration {
+    color: red;
+    font-weight: bold;
+  }
+  
+  
+  .static-text {
+    color: #4e1c91;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    text-align: center;
+  }
+  
+   .dynamic-text {
+    color: #ff0000;
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    text-align: center;
+  }
+  
+
+  @media (max-width: 768px) {
+    .FrustrationPage .static-text,
+    .FrustrationPage .dynamic-text {
+      font-size: clamp(1.5rem, 6vw, 2.2rem);
+    }
+  }
+  
+  
+  @media (max-width: 480px) {
+    .FrustrationPage .static-text,
+    .FrustrationPage .dynamic-text {
+      font-size: clamp(1.5rem, 7vw, 2rem);
+    }
+  }
+  
+  
+
+  .Fresults-rectangle {
+    background-color: peachpuff;
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: auto;
+    min-height: 200px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    max-width: 100%;
+    flex-shrink: 1;
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .Fresults-rectangle {
+      width: 70%;
+      min-height: 240px;
+    }
+  
+    .Fresults-rectangle h1 {
+      font-size: clamp(1.2rem, 4.5vw, 2.8rem);
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .Fresults-rectangle {
+      width: 80%;
+      padding: 3rem;
+      min-height: 280px;
+    }
+  
+    .Fresults-rectangle h1 {
+      font-size: clamp(1.5rem, 7vw, 2rem); 
+    }
+  }
+  
+ 
+  .Fresults-rectangle h1 {
+    font-size: clamp(1.4rem, 6vw, 3rem);
+    font-weight: normal;
+    text-align: center;
+    color: #030303;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.125rem;
+    line-height: 1.5;
+    margin: 0;
+    width: 100%;
+  }
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    margin-top: 1rem;
+  }
+  
+  button {
+    background-color: #319213;
+    color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 5.625rem;
+    height: 5.625rem;
+    border-radius: 50%;
+    font-size: clamp(0.75rem, 2vw, 1rem);
+  }
+  
+  button:hover {
+    background-color: #267a0b;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .results-rectangle {
+      width: 80%;
+      padding: 1rem;
+    }
+  
+    button {
+      width: 5rem;
+      height: 5rem;
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      font-size: clamp(1rem, 2.5vw, 1.25rem);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .results-rectangle {
+      width: 90%;
+      padding: 0.75rem;
+    }
+  
+    button {
+      width: 5.5rem;
+      height: 5.5rem;
+      margin-top: 2rem;
+      font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+  }
+  
+  .Fbutton-container {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 0px; 
+  }
+  
+  button:focus {
+    outline: none; 
+  }
+  
+  button.frustration {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #fff;
+    background-color: #ee261f;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-weight: normal;
+  }
+  
+  button.frustration:hover {
+    background-color: #b32323;
+  }
+  
+  @media (max-width: 480px) {
+    .results-rectangle {
+      width: 90%;
+      padding: 0.75rem;
+    }
+  
+    button.frustration {
+      width: 5.5rem; 
+      height: 5.5rem; 
+      margin-top: 2rem; 
+      font-size: clamp(1rem, 3vw, 1.5rem); 
+    }
+  }
+
+
+
+
+
+
+
+
+
+  @keyframes flashingCongrats {
+    0% {
+      color: #df0f08; 
+    }
+    25% {
+      color: #be250a; 
+    }
+    50% {
+      color: #0f11a1; 
+    }
+    75% {
+      color: #2f319c; 
+    }
+    100% {
+      color: #ce0707; 
+    }
+  }
+  
+  .flashing-text {
+    font-weight: bold; 
+    animation: flashingCongrats 1s infinite; 
+  }
